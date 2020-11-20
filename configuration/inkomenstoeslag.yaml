@@ -18,7 +18,6 @@ berekening:
     keuze:
     - situatie: jonger_dan_21
     - situatie: 21_jaar_of_ouder
-    - situatie: aow_leeftijd
     recht: 21_jaar_of_ouder
   - stap: gezinssituatie
     keuze: 
