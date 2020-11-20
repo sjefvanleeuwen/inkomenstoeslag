@@ -45,20 +45,20 @@ berekening:
     recht: lager_dan_vermogensdrempel
 formules:
  - inkomensdrempel:
-   - situatie: alleenstaand
+   - situatie: alleenstaand_geen_kinderen_jonger_dan_18
      formule: 1207.30
    - situatie: alleenstaand_kinderen_jonger_dan_18
      formule: 1207.30
-   - situatie: partner
+   - situatie: partner_geen_kinderen_jonger_dan_18
      formule: 1724.71
    - situatie: partner_kinderen_jonger_dan_18
      formule: 1724.71
  - vermogensdrempel:
-   - situatie: alleenstaand
+   - situatie: alleenstaand_geen_kinderen_jonger_dan_18
      formule: 6225
    - situatie: alleenstaand_kinderen_jonger_dan_18
      formule: 6225
-   - situatie: partner
+   - situatie: partner_geen_kinderen_jonger_dan_18
      formule: 12450
    - situatie: partner_kinderen_jonger_dan_18
      formule: 12450
