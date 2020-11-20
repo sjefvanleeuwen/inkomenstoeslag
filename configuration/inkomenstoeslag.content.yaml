@@ -24,7 +24,7 @@ Content:
    label: Uw leeftijdscategorie
    hint: Maak een keuze
    tekst: Ik ben jonger dan 21 jaar
- - key: stap.leeftijd.keuze.21_jaar_of_ouder
+ - key: stap.leeftijd.keuze.ouder_dan_21
    tekst: Ik ben 21 jaar of ouder maar onder de AOW leeftijd
  - key: stap.leeftijd.geen_recht
    vraag: Geen Recht

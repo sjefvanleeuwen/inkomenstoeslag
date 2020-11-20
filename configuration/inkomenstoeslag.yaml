@@ -16,9 +16,9 @@ berekening:
     recht: woonadres_utrecht
   - stap: leeftijd
     keuze:
-    - situatie: 21_jaar_of_ouder
+    - situatie: ouder_dan_21
     - situatie: jonger_dan_21
-    recht: 21_jaar_of_ouder
+    recht: ouder_dan_21
   - stap: gezinssituatie
     keuze: 
     - situatie: alleenstaand
