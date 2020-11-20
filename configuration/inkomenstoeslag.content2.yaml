@@ -68,13 +68,13 @@ Content:
  - key: stap.inkomen.keuze.hoger_dan_inkomensdrempel
    label: Geef aan wat uw inkomensdrempel is
    hint: Maak een keuze
-   tekst: Mijn inkomen lag **boven** de €{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
+   tekst: Mijn inkomen lag **boven** de &euro;{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.inkomen.keuze.lager_dan_inkomensdrempel
-   tekst: Mijn inkomen lag **onder** de €{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
+   tekst: Mijn inkomen lag **onder** de &euro;{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.inkomen.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: Uw inkomen ligt **boven** de €{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
+   tekst: Uw inkomen ligt **boven** de &euro;{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.vermogen
    titel: Uw Vermogen
    vraag: Wat is uw vermogen?
@@ -82,14 +82,14 @@ Content:
  - key: stap.vermogen.keuze.lager_dan_vermogensdrempel
    label: Geef aan wat uw vermogensdrempel is
    hint: Maak een keuze
-   tekst: Mijn vermogen lag **onder** de €{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
+   tekst: Mijn vermogen lag **onder** de &euro;{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.vermogen.keuze.hoger_dan_vermogensdrempel
-   tekst: Mijn vermogen lag **boven** de €{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
+   tekst: Mijn vermogen lag **boven** de &euro;{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.vermogen.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: Uw vermogen ligt **boven** de €{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
- - key: end
+   tekst: Uw vermogen ligt **boven** de &euro;{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
+ - key: stap.end
    titel: Recht
    vraag: U heeft mogelijk recht op inkomenstoeslag
    tekst: Om dit daadwerkelijk te kunnen vastellen kunt u een aanvraag indienen bij gemeente Utrecht.
