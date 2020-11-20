@@ -1,0 +1,57 @@
+# Individuele inkomenstoeslag POC
+stuurinformatie:
+  onderwerp: individuele inkomenstoelag
+  organisatie: Gemeente Utrecht
+  type: toeslagen
+  domein: inkomen
+  versie: 0.1
+  status: ontwikkel
+  jaar: 2020
+  bron: https://gitlab.com/commonground/virtueel-inkomstenloket/poc_utrecht_iit/-/blob/experiment_I/BPMN/BPMN%20Virtueel%20Inkomens%20Loket%20-%20IIT%2019-11-2020.bpmn
+berekening:
+  - stap: woonadres
+    keuze:
+    - situatie: woonadres_utrecht
+    - situatie: woonadres_anders
+    recht: woonadres_utrecht
+  - stap: leeftijd
+    keuze:
+    - situatie: jonger_dan_21
+    - situatie: 21_jaar_of_ouder
+    - situatie: aow_leeftijd
+    recht: 21_jaar_of_ouder
+  - stap: gezinssituatie
+    keuze: 
+    - situatie: alleenstaand
+    - situatie: partner
+    - situatie: alleenstaand_kinderen_jonger_dan_18
+    - situatie: partner_kinderen_jonger_dan_18
+  - stap: inkomen
+    keuze:
+    - situatie: hoger_dan_inkomensdrempel
+    - situatie: lager_dan_inkomensdrempel
+    recht: lager_dan_inkomensdrempel
+  - stap: vermogen
+    keuze:
+    - situatie: lager_dan_vermogensdrempel
+    - situatie: hoger_dan_vermogensdrempel
+    recht: lager_dan_vermogensdrempel
+formules:
+ - drempelinkomen:
+   - situatie: alleenstaand
+     formule: 1207.30
+   - situatie: alleenstaand_kinderen_jonger_dan_18
+     formule: 1207.30
+   - situatie: partner
+     formule: 1724.71
+   - situatie: partner_kinderen_jonger_dan_18
+     formule: 1724.71
+ - vermogensdrempel:
+   - situatie: alleenstaand
+     formule: 6225
+   - situatie: alleenstaand_kinderen_jonger_dan_18
+     formule: 6225
+   - situatie: partner
+     formule: 12450
+   - situatie: partner_kinderen_jonger_dan_18
+     formule: 12450
