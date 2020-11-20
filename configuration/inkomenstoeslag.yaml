@@ -25,7 +25,6 @@ berekening:
     - situatie: partner
     - situatie: alleenstaand_kinderen_jonger_dan_18
     - situatie: partner_kinderen_jonger_dan_18
-    recht: alleenstaand
   - stap: inkomen
     keuze:
     - situatie: hoger_dan_inkomensdrempel
