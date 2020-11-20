@@ -26,8 +26,6 @@ Content:
    tekst: Ik ben jonger dan 21 jaar
  - key: stap.leeftijd.keuze.21_jaar_of_ouder
    tekst: Ik ben 21 jaar of ouder maar onder de AOW leeftijd
- - key: stap.leeftijd.keuze.aow_leeftijd
-   tekst: Ik heb de AOW leeftijd bereikt
  - key: stap.leeftijd.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
