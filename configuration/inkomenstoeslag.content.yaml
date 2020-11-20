@@ -31,7 +31,7 @@ Content:
  - key: stap.leeftijd.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: 
+   tekst: U dient ouder te zijn dan 21 jaar en niet de AOW leeftijd bereikt hebben.
  - key: stap.gezinssituatie
    titel: Uw gezinssituatie
    vraag: Wat is uw thuissituatie?
