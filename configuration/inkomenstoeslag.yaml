@@ -35,8 +35,9 @@ berekening:
     - situatie: lager_dan_vermogensdrempel
     - situatie: hoger_dan_vermogensdrempel
     recht: lager_dan_vermogensdrempel
+  - stap: end
 formules:
- - drempelinkomen:
+ - inkomensdrempel:
    - situatie: alleenstaand
      formule: 1207.30
    - situatie: alleenstaand_kinderen_jonger_dan_18

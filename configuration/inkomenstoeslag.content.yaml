@@ -72,7 +72,7 @@ Content:
    vraag: Geen Recht
    titel: U heeft geen recht
    tekst: Uw vermogen ligt **boven** de €{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
- - key: end
+ - key: stap.end
    titel: Recht
    vraag: U heeft mogelijk recht op inkomenstoeslag
    tekst: Om dit daadwerkelijk te kunnen vastellen kunt u een aanvraag indienen bij gemeente Utrecht.
