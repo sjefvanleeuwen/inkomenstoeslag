@@ -54,13 +54,13 @@ Content:
  - key: stap.gezinssituatie_partner.situatie.partner
    titel: U heeft een partner
    vraag: Geef aan of u kinderen thuiswonend heeft
-   tekst: eef alleen kinderen onder de 18 jaar aan.
+   tekst: Geef alleen kinderen onder de 18 jaar aan.
  - key: stap.gezinssituatie_partner.situatie.partner.keuze.partner_geen_kinderen_jonger_dan_18
    label: Uw situatie
    hint: Maak een keuze
    tekst: Ja, ik heb inwonende kinderen onder de 18 jaar.
  - key: stap.gezinssituatie_partner.situatie.partner.keuze.partner_kinderen_jonger_dan_18
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Nee, ik heb inwonende kinderen onder de 18 jaar.
  - key: stap.inkomen
    titel: Uw inkomen
    vraag: Wat is uw maandelijkse inkomen?
