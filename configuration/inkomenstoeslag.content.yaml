@@ -1,0 +1,82 @@
+Content:
+ - key: berekening.header
+   titel: voer een titel in.
+   ondertitel: voer een titel in.
+ - key: stap.woonadres
+   titel: voer een titel in
+   vraag: voer de vraagstelling in.
+   tekst: voer een korte uitleg in.
+ - key: stap.woonadres.keuze.woonadres_utrecht
+   label: Voer een label voor de keuzes in.
+   hint: Voer een hint voor de keuzes in.
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.woonadres.keuze.woonadres_anders
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.woonadres.geen_recht
+   vraag: Geen Recht
+   titel: U heeft geen recht
+   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+ - key: stap.leeftijd
+   titel: voer een titel in
+   vraag: voer de vraagstelling in.
+   tekst: voer een korte uitleg in.
+ - key: stap.leeftijd.keuze.jonger_dan_21
+   label: Voer een label voor de keuzes in.
+   hint: Voer een hint voor de keuzes in.
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.leeftijd.keuze.21_jaar_of_ouder
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.leeftijd.keuze.aow_leeftijd
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.leeftijd.geen_recht
+   vraag: Geen Recht
+   titel: U heeft geen recht
+   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+ - key: stap.gezinssituatie
+   titel: voer een titel in
+   vraag: voer de vraagstelling in.
+   tekst: voer een korte uitleg in.
+ - key: stap.gezinssituatie.keuze.alleenstaand
+   label: Voer een label voor de keuzes in.
+   hint: Voer een hint voor de keuzes in.
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.gezinssituatie.keuze.partner
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.gezinssituatie.keuze.alleenstaand_kinderen_jonger_dan_18
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.gezinssituatie.keuze.partner_kinderen_jonger_dan_18
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.inkomen
+   titel: voer een titel in
+   vraag: voer de vraagstelling in.
+   tekst: voer een korte uitleg in.
+ - key: stap.inkomen.keuze.hoger_dan_inkomensdrempel
+   label: Voer een label voor de keuzes in.
+   hint: Voer een hint voor de keuzes in.
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.inkomen.keuze.lager_dan_inkomensdrempel
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.inkomen.geen_recht
+   vraag: Geen Recht
+   titel: U heeft geen recht
+   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+ - key: stap.vermogen
+   titel: voer een titel in
+   vraag: voer de vraagstelling in.
+   tekst: voer een korte uitleg in.
+ - key: stap.vermogen.keuze.lager_dan_vermogensdrempel
+   label: Voer een label voor de keuzes in.
+   hint: Voer een hint voor de keuzes in.
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.vermogen.keuze.hoger_dan_vermogensdrempel
+   tekst: Voer een tekst voor de keuze in.
+ - key: stap.vermogen.geen_recht
+   vraag: Geen Recht
+   titel: U heeft geen recht
+   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+ - key: end
+   titel: voer een titel in
+   vraag: voer de vraagstelling in.
+   tekst: voer een korte uitleg in.
+   label: geef een label voor het invoerveld.
+   hint: geef een hint voor het invoerveld.
