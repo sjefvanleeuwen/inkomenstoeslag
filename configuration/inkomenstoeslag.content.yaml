@@ -1,17 +1,17 @@
 Content:
  - key: berekening.header
-   titel: voer een titel in.
-   ondertitel: voer een titel in.
+   titel: Inkomenstoeslag 
+   ondertitel: bepalen van recht
  - key: stap.woonadres
-   titel: voer een titel in
-   vraag: voer de vraagstelling in.
-   tekst: voer een korte uitleg in.
+   titel: Uw woonadres
+   vraag: Bent u woonachtig binnen gemeente Utrecht?
+   tekst: Om recht op inkomenstoeslag moet u binnen onze gemeente wonen.
  - key: stap.woonadres.keuze.woonadres_utrecht
-   label: Voer een label voor de keuzes in.
-   hint: Voer een hint voor de keuzes in.
-   tekst: Voer een tekst voor de keuze in.
+   label: Geef aan of u woonachtig bent binnen gemeente Utrecht.
+   hint: Maak een keuze
+   tekst: Ja, ik ben woonachtig binnen gemeente Utrecht.
  - key: stap.woonadres.keuze.woonadres_anders
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Nee, ik ben woonachtig buiten gemeente Utrecht.
  - key: stap.woonadres.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
