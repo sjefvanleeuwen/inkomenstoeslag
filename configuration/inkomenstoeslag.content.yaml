@@ -15,68 +15,68 @@ Content:
  - key: stap.woonadres.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+   tekst: U Bent niet woonachtig binnen Utrecht. Ga naar uw eigen gemeentelijke voorziening.
  - key: stap.leeftijd
-   titel: voer een titel in
-   vraag: voer de vraagstelling in.
-   tekst: voer een korte uitleg in.
+   titel: Leeftijd
+   vraag: Tot welke leeftijdscategorie behoort u?
+   tekst: Om recht te hebben op inkomenstoeslag mag u niet jonger zijn dan 21 jaar of de AOW leeftijd bereikt hebben.
  - key: stap.leeftijd.keuze.jonger_dan_21
-   label: Voer een label voor de keuzes in.
-   hint: Voer een hint voor de keuzes in.
-   tekst: Voer een tekst voor de keuze in.
+   label: Uw leeftijdscategorie
+   hint: Maak een keuze
+   tekst: Ik ben jonger dan 21 jaar
  - key: stap.leeftijd.keuze.21_jaar_of_ouder
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Ik ben 21 jaar of ouder maar onder de AOW leeftijd
  - key: stap.leeftijd.keuze.aow_leeftijd
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Ik heb de AOW leeftijd bereikt
  - key: stap.leeftijd.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+   tekst: 
  - key: stap.gezinssituatie
-   titel: voer een titel in
-   vraag: voer de vraagstelling in.
-   tekst: voer een korte uitleg in.
+   titel: Uw gezinssituatie
+   vraag: Wat is uw thuissituatie?
+   tekst: Wij hanteren verschillende normen voor uw thuissituatie
  - key: stap.gezinssituatie.keuze.alleenstaand
-   label: Voer een label voor de keuzes in.
-   hint: Voer een hint voor de keuzes in.
-   tekst: Voer een tekst voor de keuze in.
+   label: Geef aan wat uw thuissituatie is
+   hint: Maak een keuze
+   tekst: Ik ben alleenstaand
  - key: stap.gezinssituatie.keuze.partner
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Ik woon samen met mijn partner
  - key: stap.gezinssituatie.keuze.alleenstaand_kinderen_jonger_dan_18
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Ik ben alleenstaande ouder met inwonende kinderen onder de 18 jaar
  - key: stap.gezinssituatie.keuze.partner_kinderen_jonger_dan_18
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Ik woon samen met mijn partner met inwonende kinderen onder de 18 jaar
  - key: stap.inkomen
-   titel: voer een titel in
-   vraag: voer de vraagstelling in.
-   tekst: voer een korte uitleg in.
+   titel: Uw inkomen
+   vraag: Wat is uw maandelijkse inkomen?
+   tekst: Vergelijk uw inkomensdrempel met uw inkomen van vorige maand.
  - key: stap.inkomen.keuze.hoger_dan_inkomensdrempel
-   label: Voer een label voor de keuzes in.
-   hint: Voer een hint voor de keuzes in.
-   tekst: Voer een tekst voor de keuze in.
+   label: Geef aan wat uw inkomensdrempel is
+   hint: Maak een keuze
+   tekst: Mijn inkomen lag **boven** de €{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.inkomen.keuze.lager_dan_inkomensdrempel
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Mijn inkomen lag **onder** de €{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.inkomen.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+   tekst: Uw inkomen ligt **boven** de €{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.vermogen
-   titel: voer een titel in
-   vraag: voer de vraagstelling in.
-   tekst: voer een korte uitleg in.
+   titel: Uw Vermogen
+   vraag: Wat is uw vermogen?
+   tekst: Het vermogen dat u aangeeft betreft deze over het afgelopen jaar
  - key: stap.vermogen.keuze.lager_dan_vermogensdrempel
-   label: Voer een label voor de keuzes in.
-   hint: Voer een hint voor de keuzes in.
-   tekst: Voer een tekst voor de keuze in.
+   label: Geef aan wat uw vermogensdrempel is
+   hint: Maak een keuze
+   tekst: Mijn vermogen lag **onder** de €{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.vermogen.keuze.hoger_dan_vermogensdrempel
-   tekst: Voer een tekst voor de keuze in.
+   tekst: Mijn vermogen lag **boven** de €{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.vermogen.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: Met de door u ingevulde gegevens heeft u geen recht.
+   tekst: Uw vermogen ligt **boven** de €{{vermogensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: end
-   titel: voer een titel in
-   vraag: voer de vraagstelling in.
-   tekst: voer een korte uitleg in.
+   titel: Recht
+   vraag: U heeft mogelijk recht op inkomenstoeslag
+   tekst: Om dit daadwerkelijk te kunnen vastellen kunt u een aanvraag indienen bij gemeente Utrecht.
    label: geef een label voor het invoerveld.
    hint: geef een hint voor het invoerveld.
