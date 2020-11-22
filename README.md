@@ -1,6 +1,6 @@
-# inkomenstoeslag
+# Individuele Inkomenstoeslag
 
-# Spoor 1 POC Utrecht
+## Spoor 1 POC Utrecht
 
 ### Experiment I
 Versimpelde aanvraag vanuit beleid en voor de doelgroep
@@ -143,7 +143,7 @@ Content:
  - key: stap.inkomen.geen_recht
    vraag: Geen Recht
    titel: U heeft geen recht
-   tekst: Uw inkomen ligt **boven** de €{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
+   tekst: Uw inkomen ligt **boven** de â‚¬{{inkomensdrempel | string.to_double | math.format "N" "nl-NL"}}
  - key: stap.vermogen
    titel: Uw Vermogen
    vraag: Wat is uw vermogen?
