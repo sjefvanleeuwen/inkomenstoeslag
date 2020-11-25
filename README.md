@@ -10,7 +10,7 @@ Versimpelde aanvraag vanuit beleid en voor de doelgroep
 * Max 4 simpele vragen zijn opgesteld die een eerste indicatie geven op het recht en de hoogte van de IIT
 * Validatie bij de doelgroep leidt tot een uitgewerkt UX design (t/m opgehaalde data)
 
-**Let op** Hoogte toeslag niet berekend, niet gespecificeerd in de IIT
+**Let op** Hoogte toeslag niet berekend, niet gespecificeerd in de huidige aangeleverde gegevensdefinitie IIT, maar kan berekend worden in de huidige technologie wanneer deze beschikbaar komt.
 
 ![flow_1](./doc/img/flow_1.png)
 ![flow_2](./doc/img/flow_2.png)
